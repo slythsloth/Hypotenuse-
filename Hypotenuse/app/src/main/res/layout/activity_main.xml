@@ -39,11 +39,54 @@
 
    </RelativeLayout>
     <EditText
-        android:layout_width="wrap_content"
+        android:id="@+id/lega"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:background="@drawable/leg_a"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="9pt"
+        android:textAlignment="center"
+        android:hint="leg a"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/legb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/leg_b"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="9pt"
+        android:textAlignment="center"
+        android:hint="leg b"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        app:cornerRadius="0dp"
+        android:text="SOLVE"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="พิมพ์นิภา อมรพิไลรัตน์ 621310434"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:layout_marginBottom="20dp"/>
 
 </LinearLayout>
